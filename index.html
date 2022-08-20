@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Boom Game</title>
+</head>
+<body>
+
+    <audio id="congrats" src="assets/congrats.wav"></audio>
+    <audio id="blast" src="assets/blast.wav"></audio>
+
+    <div class="super-container">
+        <div class="score"><span>Score: <span id="score-number">0</span></span></div>
+
+        <div class="heading">
+        
+            <div id="I" class="sentence">_____</div>
+            <div id="am" class="sentence">_____</div>
+            <div id="happy" class="sentence">_____</div>
+        </div>
+
+        <div class="container">
+            <div class="grid"><button class="buttons" id="btnI">I</button></div>
+            <div id="slot1" class="grid"><button onclick="fadeOut()" class="buttons" id="btn1">house</button></div>
+            <div id="slot2" class="grid"><button onclick="fadeOut()" class="buttons" id="btn2">some</button></div>
+            <div id="slot3" class="grid"><button onclick="fadeOut()" class="buttons" id="btn3">he</button></div>
+            <div id="slot4" class="grid"><button onclick="fadeOut()" class="buttons" id="btn4">can</button></div>
+            <div id="slot5" class="grid"><button onclick="fadeOut()" class="buttons" id="btn5">go</button></div>
+            <div id="slot6" class="grid"><button onclick="fadeOut()" class="buttons" id="btn6">nice</button></div>
+            <div id="slot7" class="grid"><button onclick="fadeOut()" class="buttons" id="btn7">want</button></div>
+            <div id="slot8" class="grid"><button onclick="fadeOut()" class="buttons" id="btn8">be</button></div>
+            <div class="grid"><button class="buttons" id="btnAm">am</button></div>
+            <div id="slot9" class="grid"><button onclick="fadeOut()" class="buttons" id="btn9">find</button></div>
+            <div id="slot10" class="grid"><button onclick="fadeOut()" class="buttons" id="btn10">sky</button></div>
+            <div id="slot11" class="grid"><button onclick="fadeOut()" class="buttons" id="btn11">try</button></div>
+            <div id="slot12" class="grid"><button onclick="fadeOut()" class="buttons" id="btn12">see</button></div>
+            <div class="grid"><button class="buttons" id="btnHappy">happy</button></div>
+            <div id="slot13" class="grid"><button onclick="fadeOut()" class="buttons" id="btn13">has</button></div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
