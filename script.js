@@ -46,6 +46,7 @@ btnI.addEventListener('click', function() {
     } else {
         score.style.color = 'red'
     }
+    btnI.style.color = 'lime'
     btnI.disabled = true
 })
 
@@ -59,6 +60,7 @@ btnAm.addEventListener('click', function() {
     } else {
         score.style.color = 'red'
     }
+    btnAm.style.color = 'lime'
     btnAm.disabled = true
 })
 
@@ -72,6 +74,7 @@ btnHappy.addEventListener('click', function() {
     } else {
         score.style.color = 'red'
     }
+    btnHappy.style.color = 'lime'
     btnHappy.disabled = true
 })
 
